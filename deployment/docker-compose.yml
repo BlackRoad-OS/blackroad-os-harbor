@@ -1,0 +1,5 @@
+version: '3.8'
+services:
+  Harbor:
+    image: Harbor:latest
+    restart: unless-stopped
